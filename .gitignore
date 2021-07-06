@@ -42,7 +42,7 @@ coverage.xml
 # files
 */cache/
 #*/json/
-*/models/
+*/*models/
 */logs/
 */*/annotations/*
 */*/annotations_reszta
@@ -51,4 +51,3 @@ coverage.xml
 video/output/*
 dataset
 wynik.xlsx
-sample-models/*
