@@ -39,7 +39,7 @@ forMinute_list = list()
 for video in videos:
     if os.path.isdir(os.path.join(videoInputPath, video)):
         continue
-    videoName, ext = os.path.splitext(video)
+    videoName, __ = os.path.splitext(video)
     outputVideoName = videoName + '_detected_yolo'
     output_stats = os.path.join(videoOutputPath, videoName)
 
